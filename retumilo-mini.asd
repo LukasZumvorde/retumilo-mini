@@ -1,7 +1,7 @@
 (defsystem "retumilo-mini"
   :version "0.0.1"
   :author "Lukas Zumvorde"
-  :license "MIT"
+  :license "BSD 2"
   :depends-on ("cl-cffi-gtk" "cl-webkit2" "uiop")
   :components ((:module "src"
                 :components
