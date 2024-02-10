@@ -6,12 +6,12 @@
   :components ((:module "src"
                 :components
                 ((:file "main"))))
-  :description ""
+  :description "A super bare bones webkit based web browser, that serves as a stand in for electron."
   :in-order-to ((test-op (test-op "retumilo-mini/tests"))))
 
 (defsystem "retumilo-mini/tests"
-  :author ""
-  :license ""
+  :author "Lukas Zumvorde"
+  :license "BSD 2"
   :depends-on ("retumilo-mini"
                "rove")
   :components ((:module "tests"
